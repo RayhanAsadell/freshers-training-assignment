@@ -12,9 +12,11 @@ You need to have all of this installed to run this application:
 create a database with name "movie_hall", and then go to src/main/resources/application.properties
 and change the configuration below based on your settings
 
-spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/movie_hall
-spring.datasource.username=root //Insert your database username
-spring.datasource.password=Password1 //inser your database password
+spring.datasource.url=jdbc:mysql://${MYSQL_HOST:localhost}:3306/movie_hall 
+
+spring.datasource.username=root //Insert your database username    
+
+spring.datasource.password=Password1 //inser your database password   
 
 # Running the app
 you can start the web server by running it from intellij IDE
