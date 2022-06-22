@@ -17,7 +17,7 @@ public class MovieHallService {
     public  void deleteMovieHall(Long id) {
         boolean exists = movieHallRepository.existsById(id);
         if (!exists){
-            throw new IllegalStateException(("student with id "+id+" does not exist"));
+            throw new IllegalStateException(("Movie hall with id "+id+" does not exist"));
         }
         movieHallRepository.deleteById(id);
     }
